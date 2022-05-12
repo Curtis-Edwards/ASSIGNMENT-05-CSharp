@@ -8,8 +8,7 @@ class Program
         int integer;
         string currentsymbol = "negative";
         decimal bottomnumber = 1;
-        decimal answer = (4 / bottomnumber) ;
-
+        decimal answer = (4 / bottomnumber);
 
         Console.WriteLine("Please enter the number of iterations");
         Console.WriteLine("");
@@ -27,7 +26,8 @@ class Program
                     bottomnumber = bottomnumber + 2;
                     answer = answer - (4 / bottomnumber);
                     currentsymbol = "positive";
-                } else if (currentsymbol == "positive")
+                } 
+                else if (currentsymbol == "positive")
                 {
                     bottomnumber = bottomnumber + 2;
                     answer = answer + (4 / bottomnumber);
