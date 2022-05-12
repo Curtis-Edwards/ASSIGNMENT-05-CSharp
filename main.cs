@@ -7,8 +7,8 @@ class Program
         // This function accepts user input
         int integer;
         string currentsymbol = "negative";
-        float bottomnumber = 1;
-        float answer = (4 / bottomnumber) ;
+        decimal bottomnumber = 1;
+        decimal answer = (4 / bottomnumber) ;
 
 
         Console.WriteLine("Please enter the number of iterations");
