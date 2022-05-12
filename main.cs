@@ -26,7 +26,7 @@ class Program
                     bottomnumber = bottomnumber + 2;
                     answer = answer - (4 / bottomnumber);
                     currentsymbol = "positive";
-                } 
+                }
                 else if (currentsymbol == "positive")
                 {
                     bottomnumber = bottomnumber + 2;
