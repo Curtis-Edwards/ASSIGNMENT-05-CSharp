@@ -6,9 +6,9 @@ class Program
     {
         // This function accepts user input
         int integer;
-        int currentsymbol = "negative";
-        int bottomnumber = 0 ;
-        int answer = 0 ;
+        var currentsymbol = "negative";
+        var bottomnumber = 1;
+        var answer = (4 / bottomnumber) ;
 
 
         Console.WriteLine("Please enter the number of iterations");
@@ -20,18 +20,18 @@ class Program
 
         if (integer > 1)
         {
-            for (let counter = 1; counter < integer; counter++)
+            for (int counter = 1; counter < integer; counter++)
             {
-                if (currentSymbol == "negative")
+                if (currentsymbol == "negative")
                 {
-                    bottomNumber = bottomNumber + 2;
-                    answer = answer - (4 / bottomNumber);
-                    currentSymbol = "positive";
-                } else if (currentSymbol == "positive")
+                    bottomnumber = bottomnumber + 2;
+                    answer = answer - (4 / bottomnumber);
+                    currentsymbol = "positive";
+                } else if (currentsymbol == "positive")
                 {
-                    bottomNumber = bottomNumber + 2;
-                    answer = answer + (4 / bottomNumber);
-                    currentSymbol = "negative";
+                    bottomnumber = bottomnumber + 2;
+                    answer = answer + (4 / bottomnumber);
+                    currentsymbol = "negative";
                 }
             }
         }
