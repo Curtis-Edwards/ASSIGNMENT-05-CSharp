@@ -6,9 +6,9 @@ class Program
     {
         // This function accepts user input
         int integer;
-        var currentsymbol = "negative";
-        var bottomnumber = 1;
-        var answer = (4 / bottomnumber) ;
+        string currentsymbol = "negative";
+        float bottomnumber = 1;
+        float answer = (4 / bottomnumber) ;
 
 
         Console.WriteLine("Please enter the number of iterations");
